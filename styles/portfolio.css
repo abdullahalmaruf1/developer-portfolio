@@ -139,7 +139,7 @@ main section{
 .about {
     padding: 62px;
     border-radius: 10px;
-    background: #fbf1e8;
+    background: #fbebdf;
     margin: 130px 0px;
 }
 
@@ -205,7 +205,34 @@ main section{
 /* footer style */
 footer{
     display: flex;
-    background: #FFF8F3;
+    gap: 100px;
+    background: #f4d5c0;
     margin-top: 100px;
     padding: 130px 200px;
+}
+
+.footer-column{
+    width: 50%;
+}
+.section-description{
+    text-align: justify;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"],
+ textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0px;
+    width: 342px;
+    height: 19px;
+}
+.textarea{
+    width: 342px;
+    height: 120px;
 }
